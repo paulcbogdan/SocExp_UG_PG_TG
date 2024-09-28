@@ -1,0 +1,1 @@
+Data and code for: Bogdan, P.C., Dolcos, F., Moore, M., Kuznietsov, I., Culpepper, S.A., Dolcos, S. (2023). Social Expectations are Primarily Rooted in Reciprocity: An Investigation of Fairness, Cooperation, and Trustworthiness. Cognitive Science.
