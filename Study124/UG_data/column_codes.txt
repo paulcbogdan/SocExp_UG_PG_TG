@@ -1,0 +1,23 @@
+This file details the columns for the processed spreadsheets
+
+condition 	(only for Studies 2 and 4: specifies condition [Study 2] or partner type [Study 4])
+invest 		(only for Study 4: cell value inserted in last UG of block)
+payout_r 	(payout received in Responder role for a given trial)
+payout_p 	(payout received in Proposer role for a given trial)
+payout 		(merging payout_r and payout_p)
+id 		(subject code)
+excluded 	(only for Studies 1 and 2: 0 = included in final analysis, 1 = excluded; exclusions Study 4 performed in the excel spreadsheet, Study4_t-tests.xlsx)
+block_number 	(the experiment was divided into blocks, numbered in this column)
+role 		(p = Proposer, r = Responder)
+subjectTake 	(Proposer role only: amount participant proposed to take)
+proposerTake	(Responder role only: amount other player proposed to take)
+subject_response	(-2 = strongly reject, -1 = reject, 0 = pass, 1 = accept, 2 = strongly accept)
+subject_response_bool	(0 = strongly reject or reject, 1 = accept or strongly accept, blank = no response or pass)
+
+Several "prev_" columns were added, e.g.:
+	"prev_subjectTake" = subjectTake from trial[n-1]
+	"prev_prev_subjectTake" = subjectTake from trial[n-2]
+
+E_p (E[Proposed])
+E_r (E[Received])
+received 	(Responder role only: amount participant was offered to receive, 10 - proposerTake

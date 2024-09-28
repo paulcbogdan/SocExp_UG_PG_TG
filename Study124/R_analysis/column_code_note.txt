@@ -1,0 +1,6 @@
+Note, as described in the UG_data folder. 
+For the Responder trials:
+	received = 10 - proposerTake
+	i.e., the amount participants received is 10 minus the amount the Proposer took
+
+Either received or proposerTake can be used for the analysis on the effects of previously received offers
